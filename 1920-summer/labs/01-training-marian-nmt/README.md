@@ -13,7 +13,6 @@ Clusters with GPU available:
 
 - Doom machines have 5GB cards: https://metavo.metacentrum.cz/pbsmon2/resource/doom.metacentrum.cz
 - Adan machines have 16GB cards: https://wiki.metacentrum.cz/wiki/Cluster_Adan
-There are also Adan machines which have the largest GPUs.
 
 There are also smaller GPU clusters, see the full list here:
   https://wiki.metacentrum.cz/wiki/GPU_clusters
@@ -31,7 +30,19 @@ qsub -q gpu -l select=1:ncpus=2:ngpus=1:mem=20gb:cl_doom=True \
   # you can ask for 2 gpus, always ask for 2x as many CPUs as GPUs
 ```
 
-## Compiling Marian (without Subword Units Support)
+To see if you correctly landed on a GPU machine, see the usage of GPUs:
+```
+nvidia-smi
+```
+
+To see which GPUs your programs are allowed to use (as many as you asked for), check this:
+```
+echo $CUDA_VISIBLE_DEVICES
+```
+
+## Compiling Marian without Subword Units Support
+
+This is the baseline compilation of Marian. See below for including SentencePiece.
 
 ```
 ssh nympha.zcu.cz # or another MetaCentrum node
