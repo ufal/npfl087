@@ -219,6 +219,8 @@ The console will show things like:
 ...
 ```
 
+Note: Doom and Adan machines are not binary compatible. If you get an error "Illegal instruction" when running Marian it means, that you compiled Marian on one machine, but tried running it on the other.
+
 ## Non-Interactive Training
 Always use non-interactive jobs for long-time training. The main reason is that if your job dies, it frees the GPU. An interactive job would wait for you to continue.
 
