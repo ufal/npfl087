@@ -75,6 +75,7 @@ cmake ..
 make -j
 ```
 
+It may happen, that the build process fails due to randomly occuring bugs regarding the disk space. If that happens, simply run the `make -j` command again. Only targets which weren't successful in the first run will be compiled. The second run should then be much faster.
 
 ### Compiling Marian with SentencePiece
 
@@ -165,8 +166,9 @@ zcat wmt17-nmt-training-task-package/newstest2016.en.gz \
 ##   train.bpe.tgt    ... Czech target of training data
 ##   dev.bpe.src      ... English source of the development set
 ##   dev.bpe.tgt      ... Czech target of the development set
-Start Training
-This is the baseline tested command to run interactively, if you asked for 2 GPUs:
+
+# Start Training
+# This is the baseline tested command to run interactively, if you asked for 2 GPUs:
 
 marian \
   --devices 0 1  \
@@ -182,13 +184,13 @@ marian \
   --disp-freq 1000
 ```
 
-Make sure to use the correct training files depending on your dataset choice: train.***.src and train.***.tgt.
+Make sure to use the correct training files depending on your dataset choice: `train.***.src` and `train.***.tgt`.
 
-The above flags saved a model about every 5 minutes. In early stages of debugging, use --save-freq and --disp-freq of 100.
+The above flags saved a model about every 5 minutes. In early stages of debugging, use `--save-freq` and `--disp-freq` of 100.
 
-Use --devices 0 if you asked for just 1 GPU.
+Use `--devices 0` if you asked for just 1 GPU.
 
-For dataset B: add --no-shuffle, the dataset is already shuffled so no need to waste time on it.
+For dataset B: add `--no-shuffle`, the dataset is already shuffled so no need to waste time on it.
 
 Killing the command and starting it over will continue training from the last saved model.npz (but reading the corpus from the beginning).
 
@@ -217,12 +219,14 @@ The console will show things like:
 ...
 ```
 
+Note: Doom and Adan machines are not binary compatible. If you get an error "Illegal instruction" when running Marian it means, that you compiled Marian on one machine, but tried running it on the other.
+
 ## Non-Interactive Training
 Always use non-interactive jobs for long-time training. The main reason is that if your job dies, it frees the GPU. An interactive job would wait for you to continue.
 
 Here are MetaCentrum instructions on submitting jobs. Remember you need to ask for GPUs (and doom machines).
 
-Also remember that you need to module add cuda-8.0 in the job script.
+Also remember that you need to `module add cuda-8.0` in the job script.
 
 Translate with the First Saved Model
 The training will take very long time. We can test any saved model, independently.
@@ -252,7 +256,7 @@ No special batching flags                                      	Total time: 321.
 --mini-batch 256 --maxi-batch-sort src --maxi-batch 100 -w 4200	Total time: 219.79195s wall  # counter-intuitive: larger batch size takes more time
 ```
 
-You can list several model files (--model model.iter3000.npz model.iter4000.npz), marian-decoder will ensemble them. You can even use different model types (transformer vs. s2s vs. amun).
+You can list several model files (`--model model.iter3000.npz model.iter4000.npz`), marian-decoder will ensemble them. You can even use different model types (transformer vs. s2s vs. amun).
 
 ## Translating on CPU (amun)
 
@@ -269,7 +273,7 @@ amun \
   --cpu-threads 4 \
 > dev.translated-with-model-iter1000
 ```
-You can list several model files (--model model.iter3000.npz model.iter4000.npz), amun will ensemble them.
+You can list several model files (`--model model.iter3000.npz model.iter4000.npz`), amun will ensemble them.
 
 ## Post-processing the Translation
 If you used subwords (BPE), i.e. for dataset B, you definitely need to remove them. Simply pass the output through sed 's/@@ //g'.
