@@ -114,6 +114,33 @@ make -j 4
 (Thanks to James Level for figuring this out.)
 
 
+## Building Marian on AIC
+### Without SentencePiece
+```
+# first go to AIC frontend
+ssh username@aic.ufal.mff.cuni.cz
+
+# then to some gpu node
+qrsh -q gpu.q -l gpu=1,gpu_ram=8G,mem_free=16G,act_mem_free=16G,h_vmem=16G -pty yes bash -l
+
+# it is better to add this to ~/.bashrc
+export CUDA_HOME=/lnet/aic/opt/cuda/cuda-10.1
+
+# newer cmake needed:
+wget https://github.com/Kitware/CMake/releases/download/v3.14.2/cmake-3.14.2-Linux-x86_64.tar.gz
+tar -zxvf cmake-3.14.2-Linux-x86_64.tar.gz
+export CMAKE=cmake-3.14.2-Linux-x86_64/bin/cmake
+
+# get marian (1.9.0 currently)
+git clone https://github.com/marian-nmt/marian.git
+mkdir marian/build && cd marian/build
+
+# now make 
+# turn off compilation for cpu (build fails otherwise)
+$CMAKE .. -DCOMPILE_CPU=OFF
+make -j4
+```
+
 ## Getting Sample Training Data
 
 There are two options, you are free to choose any of them with no impact on your homework score.
