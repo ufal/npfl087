@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./../giza-pp/GIZA++-v2/plain2snt.out human asr
+./../giza-pp/mkcls-v2/mkcls -phuman -Vhuman.vcb.classes
+./../giza-pp/mkcls-v2/mkcls -pasr -Vasr.vcb.classes
+./../giza-pp/GIZA++-v2/snt2cooc.out human.vcb asr.vcb human_asr.snt > human_asr.cooc
+./../giza-pp/GIZA++-v2/GIZA++ -S human.vcb -T asr.vcb -C human_asr.snt -CoocurrenceFile human_asr.cooc -o Result . ''
+
+
