@@ -1,0 +1,373 @@
+book/buck (/bʊk/, /bʌk/)
+hook/huck (/hʊk/, /hʌk/)
+crooks/crux (/krʊks/, /krʌks/)
+look/luck (/lʊk/, /lʌk/)
+puss/pus (/pʊs/, /pʌs/)
+put/putt (/pʊt/, /pʌt/)
+took/tuck (/tʊk/, /tʌk/)
+shook/shuck (/ʃʊk/, /ʃʌk/)
+could/cud (/kʊd/, /kʌd/)
+booger/bugger (/bʊɡ.ər/, /bʌɡ.ər/)
+boogie/buggy (/bʊɡ.i/, /bʌɡ.i/)
+ant/aunt (/ænt/, /ɑːnt/)
+cant/can't (/kænt/, /kɑːnt/)
+have/halve (/hæv/, /hɑːv/)
+massed/mast (/mæst/, /mɑːst/)
+an/Ann (/æn, æːn/)
+can (be able to)/can (container) (/kæn, kæːn/)
+span (spin)/span (space) (/spæn, spæːn/)
+ran/Wran (/ræn, ræːn/)
+Manning/manning (/mæn.ɪŋ, mæːn.ɪŋ/)
+bade/bad (/bæd, bæːd/)
+sadist/saddest (/sæd.ɪst, sæːd.ɪst/)
+band/banned (/bænd, bæːnd/)
+can (be able to)/can (container) (/kæn, keən/)
+have/halve (/hæv, heəv/)
+Manning/manning (/mæn.ɪŋ, meən.ɪŋ/)
+odd/awed (/ɒd, ɔːd/)
+sod/sawed (/sɒd, sɔːd/)
+sot/sought (/sɒt, sɔːt/)
+cod/cawed (/kɒd, kɔːd/)
+nod/gnawed (/nɒd, nɔːd/)
+pod/pawed (/pɒd, pɔːd/)
+clod/clawed/Claud (/klɒd, klɔːd/)
+body/bawdy (/bɒd.i, bɔːd.i/)
+chock/chalk (/tʃɒk, tʃɔːk/)
+cock/calk/caulk (/kɒk, kɔːk/)
+wok/walk (/wɒk, wɔːk/)
+box/balks (/bɒks, bɔːks/)
+ox/auks (/ɒks, ɔːks/)
+collar/caller (/kɒl.ər, kɔːl.ər/)
+hock/hawk (/hɒk, hɔːk/)
+stock/stalk (/stɒk, stɔːk/)
+pol/pall/Paul (/pɒl, pɔːl/)
+on/awn (/ɒn, ɔːn/)
+don/dawn (/dɒn, dɔːn/)
+yon/yawn (/jɒn, jɔːn/)
+John/jawn (/dʒɒn, dʒɔːn/)
+fond/fawned (/fɒnd, fɔːnd/)
+pond/pawned (/pɒnd, pɔːnd/)
+cot/caught (/kɒt, kɔːt/)
+sot/sought (/sɒt, sɔːt/)
+bot/bought (/bɒt, bɔːt/)
+knot/not/naught/nought (/nɒt, nɔːt/)
+rot/wrought (/rɒt, rɔːt/)
+tot/taught/taut (/tɒt, tɔːt/)
+dotter/daughter (/dɒt.ər, dɔː.tər/)
+popper/pauper (/pɒp.ər, pɔː.pər/)
+bobble/bauble (/bɒb.əl, bɔː.bəl/)
+offal/awful (/ɒf.əl, ɔː.fəl/)
+balm/bomb (/bɑːm, bɒm/)
+palm/Pom (/pɑːm, pɒm/)
+Khan/con (/kɑːn, kɒn/)
+sari/sorry (/sɑːri, sɒri/)
+Mali/Molly (/mɑːli, mɒli/)
+Saab/sob (/sɑːb, sɒb/)
+awe/ah (/ɔː, ɑː/)
+haw/ha (/hɔː, hɑː/)
+paw/pa (/pɔː, pɑː/)
+balk/Bach (/bɔːk, bɑːx/)
+raw/Ra (/rɔː, rɑː/)
+maw/ma (/mɔː, mɑː/)
+Mary/merry/marry (/ˈmɛə.ri/, /ˈmɛr.i/, /ˈmær.i/)
+hairy/harry/Harry (/ˈhɛə.ri/, /ˈhær.i/, /ˈhær.i/)
+hairier/harrier (/ˈhɛə.ri.ər/, /ˈhær.i.ər/)
+fairy/faery/ferry (/ˈfɛə.ri/, /ˈfɛr.i/)
+berry/bury/Barry (/ˈbɛr.i/, /ˈbær.i/)
+vary/very (/ˈvɛə.ri/, /ˈvɛr.i/)
+airer/error (/ˈɛə.rər/, /ˈɛr.ər/)
+tearer/terror (/ˈtɛə.rər/, /ˈtɛr.ər/)
+parish/perish (/ˈpær.ɪʃ/, /ˈpɛr.ɪʃ/)
+Erin/Aaron (/ˈɛr.ɪn/, /ˈær.ən/)
+parry/perry (/ˈpær.i/, /ˈpɛr.i/)
+tarry/terry (/ˈtær.i/, /ˈtɛr.i/)
+Farrell/feral (/ˈfær.əl/, /ˈfɛr.əl/)
+serious/Sirius (/ˈsɪə.riˌəs/, /ˈsɪ.riˌəs/)
+serous/cirrus (/ˈsɪə.rəs/, /ˈsɪ.rəs/)
+for/fore/four/4 (/fɔːr, fɔər/)
+forward/foreword (/ˈfɔːr.wərd/, /ˈfɔər.wɜːrd/) (Only in GenAm as it lacks /ə/, /ɜː/ contrast)
+or/oar/ore/o'er (/ɔːr, ɔər/)
+war/wore (/wɔːr, wɔər/)
+sword/soared (/sɔːrd, sɔərd/)
+chord/cord/cored (/kɔːrd, kɔərd/)
+border/boarder (/ˈbɔːrd.ər/, /ˈbɔərd.ər/)
+horse/hoarse (/hɔːrs, hɔərs/)
+forth/fourth (/fɔːrθ, fɔərθ/)
+warn/worn (/wɔːrn, wɔərn/)
+born/borne (/bɔːrn, bɔərn/)
+morn/mourn (/mɔːrn, mɔərn/)
+way/weigh/whey (/weɪ, ʍeɪ/)
+wale/wail/whale (/weɪl, ʍeɪl/)
+Wales/wails/whales (/weɪlz, ʍeɪlz/)
+wear/ware/weir/where (/wɛər, ɛər/)
+weal/we'll/wheal/wheel (/wiːl, ʍiːl/)
+weald/wield/wheeled (/wiːld, ʍiːld/)
+wye/Y/why (/waɪ, ʍaɪ/)
+wide/why'd (/waɪd, ʍaɪd/)
+wile/while (/waɪl, ʍaɪl/)
+wild/wiled/whiled (/waɪld, ʍaɪld/)
+wind/wined/wynd/whined (/waɪnd, ʍaɪnd/)
+wire/why're (/waɪər, waɪr, ʍaɪ.ər/)
+wise/Y's/whys/why's (/waɪz, ʍaɪz/)
+woe/whoa (/wəʊ, ʍəʊ/)
+weather/wether/whether (/wɛ.ðər, ʍɛ.ðər/)
+wet/whet (/wɛt, ʍɛt/)
+word/whirred (/wɜːrd, ʍɜːrd/)
+world/whirled/whorled (/wɜːrld, ʍɜːrld/)
+witch/which (/wɪtʃ, ʍɪtʃ/)
+whit/wit (/wɪt, ʍɪt/)
+arm/harm (/ɑːrm, hɑːrm/)
+ardor/harder (/ˈɑːrdər/, /ˈhɑːrdər/)
+arc/ark/hark (/ɑːrk, hɑːrk/)
+art/heart (/ɑːrt, hɑːrt/)
+eat/heat (/iːt, hiːt/)
+at/hat (/æt, hæt/)
+ash/hash (/æʃ, hæʃ/)
+am/ham (/æm, hæm/)
+aft/haft (/æft, hæft/)
+ad/had (/æd, hæd/)
+axe/hacks (/æk, hæk/)
+and/hand (/ænd, hænd/)
+oboe/hobo (/ˈəʊbəʊ, ˈhəʊbəʊ/)
+old/hold (/əʊld, həʊld/)
+ohm/home (/əʊm, həʊm/)
+own/hone (/əʊn, həʊn/)
+owe/oh/ho/hoe (/əʊ, həʊ/)
+ow/how (/aʊ, haʊ/)
+ooze/who's/whose (/uːz, huːz/)
+oaks/hoax (/əʊks, həʊks/)
+ate/eight/hate (/eɪt, heɪt/)
+ale/ail/hale/hail (/eɪl, heɪl/)
+ear/hear/here (/ɪər, hɪər/)
+it/hit (/ɪt, hɪt/)
+is/his (/ɪz, hɪz/)
+itch/hitch (/ɪtʃ, hɪtʃ/)
+id/hid (/ɪd, hɪd/)
+I/eye/hi/high (/aɪ, haɪ/)
+Ike/hike (/aɪk, haɪk/
+I've/hive (/aɪv, haɪv/)
+Ides/hides (/aɪdz, haɪdz/)
+eyed/hide (/aɪd, haɪd/)
+heir/air/hair/hare (/ɛər, hɛər/)
+otter/hotter (/ɒt.ər, hɒt.ər/)
+edge/hedge (/ɛdʒ, hɛdʒ/)
+elm/helm (/ɛlm, hɛlm/)
+all/awl/haul/hall (/ɔːl, hɔːl/)
+eel/heel/heal (/iːl, hiːl/)
+eat/heat (/iːt, hiːt/)
+eve/heave (/iːv, hiːv/)
+earl/hurl (/ɜːrl, hɜːrl/)
+awe/haw (/ɔː, hɔː/)
+ore/oar/or/hoar/whore (/ɔːr, hɔːr/)
+auk/hawk (/ɔːk, hɔːk/)
+dew/due/Jew (/ˈdʒuː/)
+dual/duel/jewel (/dʒuː(.ə)l/)
+dune/June (/ˈdʒuːn/)
+deuce/juice (/ˈdʒuːs/)
+duke/juke (/ˈdʒuːk/)
+threw/(through/thru) (/ˈθruː/)
+brood/brewed (/ˈbruːd/)
+rood/rude/rued (/ˈruːd/)
+droop/drupe (/ˈdruːp/)
+lieu/loo/Lou (/ˈluː/)
+lune/loon (/ˈluːn/)
+lute/loot (/ˈluːt/)
+flew/flue/flu (/ˈfluː/)
+slue/slew/slough (/sluː/)
+gloom/glume (/ˈɡluːm/)
+choose/chews (/ˈtʃuːz/)
+chute/shoot (/ˈʃuːt/)
+dew/due/do (/ˈduː/)
+undue/undo (/ʌn.ˈdu/)
+tune/toon (/ˈtuːn/)
+knew/gnu/new/[nu] (/ˈnuː/)
+pure/poor
+beauty/booty
+mute/moot
+cute/coot
+Aoife/ether
+beef/Beith
+breve/breathe
+café/Cathay
+caff/Cath
+clove/clothe
+deaf/death
+F/eth
+faugh/for/four/thaw
+faun/fawn/thorn
+feign/fain/thane
+feoff/fief/thief
+fervor/further
+few/thew
+fie/thigh
+fill/thill
+fin/Finn/thin
+firm/therm
+first/thirst
+foal/thole
+for/four/Thor
+ford/thawed
+fort/fought/thought
+Fred/thread
+free/three
+fresh/thresh
+fresher/thresher
+fret/threat
+frill/thrill
+fro/throw
+froze/throes
+fug/thug
+fuse/thews
+half/hearth
+infuse/enthuse
+laugh/lath
+lava/lather
+lave/lathe
+leafy/Lethe
+live/lithe
+loaf/loath
+never/nether
+oaf/oath
+rave/rathe
+reef/wreath
+reive/wreathe
+rive/writhe
+roof/Ruth
+sheaf/sheath
+sliver/slither
+whiff/withe
+Th-alveolarization
+bays/bathe
+breeze/breathe
+cymbal/symbol/thimble
+face/faith
+force/fourth
+gross/growth
+kiss/kith
+lays/laze/lathe
+mass/math/maths
+mouse/mouth
+moss/moth
+miss/myth
+Norse/north
+pass/path
+piss/pith
+sank/thank
+saw/soar/sore/thaw
+sawed/sword/thawed
+sawn/thorn
+saws/soars/sores/thaws
+seem/theme
+seems/themes
+seize/seethe
+sick/thick
+sigh/thigh
+sighs/size/thighs
+sin/thin
+sing/thing
+sings/things
+sink/think
+sinking/thinking
+sinks/thinks
+sinning/thinning
+sins/thins
+soared/thawed
+soaring/thawing
+soars/sores/thaws
+song/thong
+songs/thongs
+sort/sought/thought
+sorts/thoughts
+sues/soothe
+sum/thumb
+sump/thump
+tense/tenth
+whizz/with
+worse/worth
+zees/these
+zen/then
+Haines/thanes
+hank/thank
+hatch/thatch
+hatches/thatches
+haw/thaw
+heard/third
+herd/third
+hi/hie/high/thigh
+hick/thick
+hin/thin
+hod/thawed
+hug/thug
+Hurst/thirst
+Th-stopping
+Bart/bath
+bayed/bathe
+Bert/birth
+boat/both
+boot/booth
+breed/breathe
+Dan/than
+dare/their/there/they're
+dare/there
+day/they
+den/then
+dhow/thou
+dine/thine
+dirt/dearth
+diss/this
+frot/froth
+got/goth
+heart/hearth
+mats/maths
+met/meth
+mitt/myth
+mudder/mother
+nutting/nothing
+part/path
+read/reed/wreathe
+ride/wrythe
+tank/thank
+taught/thought
+tent/tenth
+tin/thin
+tinker/thinker
+toot/tooth
+trash/thrash
+tree/three
+true/threw/through
+turd/third
+udder/other
+arms/alms
+airier/area
+aren't/aunt
+bittern/bitten
+court/caught
+core/corps/caw
+drawers/draws
+far/fah
+farther/father
+floor/flaw
+fort/fought
+formerly/formally
+hoar/whore/haw
+larva/lava
+lore/law
+manner/manna
+miner/minor/mynah
+more/maw
+oar/or/ore/o'er/awe
+pattern/paten/patten
+porn/pawn
+pores/pours/pause/paws
+pore/pour/paw
+roar/raw
+rort/wrought
+rotor/rota
+soar/sore/saw
+sort/sought
+source/sauce
+spar/spa
+stork/stalk
+torque/talk
+tort/taught/taut
+yore/your/yaw
