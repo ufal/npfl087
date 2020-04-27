@@ -46,3 +46,27 @@
  * the "database of words" approach is not ideal and some features would be more suitable
  * we found few paper that describes how to create features from words, where similar sounding words are very close in feature space
  * we want to further investigate this approach and use it instead of this "word" approach
+ 
+ # Simulating ASR errors using a MT approach
+ 
+ ## Training Data 
+ * Data from the Wikidump containing 1M sentences was used for training
+ 
+ ## Preprocessing 
+ * The training sentences were first divided into windows of ten words
+ * The sentences were processed with the homonyme generation algorithm
+ 
+ ## Training
+ * The objective was to create MT system that would take original sentences as the source sentences and to use the converted sentences (processed by the homonym algorithm) as the target sentences.
+ * The sentences were trained using a LSTM based model with attention for 10000 training steps.
+ 
+ ## Result
+ * The trained model was fed with the human transcript. The result is given in the file human_out.noise
+ 
+ ## Conclusion
+ * The output has some errors that simulates misrecognized words.
+ * There are some random errors that simulate errors due to noise in source audio.
+ 
+ ### To-Do
+ * Look into methods to make the errors more realisitic
+ 
