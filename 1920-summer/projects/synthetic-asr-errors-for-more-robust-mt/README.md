@@ -67,6 +67,10 @@
  ## Conclusion
  * The output has some errors that simulates misrecognized words (due to the homonyme algorithm).
  * There are some random errors that simulate errors due to noise in source audio (due to the model's own uncertainity).
+ * Using wdiff to analyse the files, we have the following results:
+   * human_out.noise: 12382 words  11237 91% common  30 0% deleted  1115 9% changed
+   * human_out.noise_5k: 12361 words  11237 91% common  9 0% inserted  1115 9% changed
+
  
  ### To-Do
  * Look into methods to make the errors more realisitic
