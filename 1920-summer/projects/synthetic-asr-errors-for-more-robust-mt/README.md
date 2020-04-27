@@ -61,12 +61,14 @@
  * The sentences were trained using a LSTM based model with attention for 10000 training steps.
  
  ## Result
- * The trained model was fed with the human transcript. The result is given in the file human_out.noise
+ * The trained model (trained for 10k steps) was fed with the human transcript. The result is given in the file human_out.noise
+ * The same model (trained for 5k steps) was fed with the human transcript. The result is given in the file human_out.noise_5k.
  
  ## Conclusion
- * The output has some errors that simulates misrecognized words.
- * There are some random errors that simulate errors due to noise in source audio.
+ * The output has some errors that simulates misrecognized words (due to the homonyme algorithm).
+ * There are some random errors that simulate errors due to noise in source audio (due to the model's own uncertainity).
  
  ### To-Do
  * Look into methods to make the errors more realisitic
+ * Modify the homonym algorithm to use a more "feature" based approach that makes use of the similarity of similar sounding words in the feature space.
  
