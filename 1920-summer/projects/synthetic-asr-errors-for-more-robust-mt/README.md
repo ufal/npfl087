@@ -63,13 +63,24 @@
  ## Result
  * The trained model (trained for 10k steps) was fed with the human transcript. The result is given in the file human_out.noise
  * The same model (trained for 5k steps) was fed with the human transcript. The result is given in the file human_out.noise_5k.
+ * wdiff results on the asr output and the human transcription are:
+   * human_out: 12382 words  9387 76% common  168 1% deleted  2827 23% changed
+   * asr_out.txt: 12843 words  9387 73% common  193 2% inserted  3263 25% changed
+ * Using wdiff to analyse the synthetic MT based files, we have the following results:
+   * human_out.noise: 12382 words  11237 91% common  30 0% deleted  1115 9% changed
+   * human_out.noise_5k: 12361 words  11237 91% common  9 0% inserted  1115 9% changed
+ * Similarly, using wdiff on the asr output file and the synthetic files we have:
+   * 10k model
+      * human_out.noise: 12382 words  8992 73% common  188 2% deleted  3202 26% changed
+      * asr_out.txt: 12843 words  8992 70% common  177 1% inserted  3674 29% changed
+   * 5k model
+      * human_out.noise_5k: 12361 words  8644 70% common  170 1% deleted  3547 29% changed
+      * asr_out.txt: 12843 words  8644 67% common  181 1% inserted  4018 31% changed
+
  
  ## Conclusion
  * The output has some errors that simulates misrecognized words (due to the homonyme algorithm).
  * There are some random errors that simulate errors due to noise in source audio (due to the model's own uncertainity).
- * Using wdiff to analyse the files, we have the following results:
-   * human_out.noise: 12382 words  11237 91% common  30 0% deleted  1115 9% changed
-   * human_out.noise_5k: 12361 words  11237 91% common  9 0% inserted  1115 9% changed
 
  
  ### To-Do
