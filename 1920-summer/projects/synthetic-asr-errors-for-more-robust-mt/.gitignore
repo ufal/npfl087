@@ -7,4 +7,5 @@ train_sound_embeddings/data/
 train_sound_embeddings/saved_models/
 train_sound_embeddings/outputs/
 .idea
+__pycache__
 
