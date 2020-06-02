@@ -1,0 +1,16 @@
+# this file provides list of dictionaries for the 'Dictionary Error Model'
+# All files are held in memory, so only reasonable ammount of reasonable sized dictionaries is supported
+# More dictionaries == slower inference
+# HASH TABLES
+# syntax for prividing hash table is:
+#           {path}                                   {hashing-function}   {from N}  {to N}
+train_dictionary/hashtable/words-400K_SOUNDEX_1_1.pkl    soundex             1       1
+# train_dictionary/hashtable/words-30K_METAPHONE_1_2.pkl   metaphone           1       2
+train_dictionary/hashtable/words-30K_MRA_1_2.pkl         mra                 1       2
+
+# DICTIONARIES
+# syntax for providing dictionary is:
+#            {path}                                     'dictionary'   {from N}   {to N}
+train_dictionary/dictionary/scraped-dict.pkl             dictionary       1        1
+#train_dictionary/dictionary/words-400K_mra_0.8.pkl       dictionary       1        1
+train_dictionary/dictionary/eng-words-140K_mra_0.8.pkl   dictionary       1        1

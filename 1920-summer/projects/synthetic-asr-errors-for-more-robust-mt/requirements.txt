@@ -1,0 +1,6 @@
+jellyfish
+jiwer
+nltk
+numpy
+scipy
+torch

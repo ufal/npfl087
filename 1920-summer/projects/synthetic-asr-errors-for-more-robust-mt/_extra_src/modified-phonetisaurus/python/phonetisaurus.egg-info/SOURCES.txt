@@ -1,0 +1,8 @@
+setup.py
+phonetisaurus/__init__.py
+phonetisaurus.egg-info/PKG-INFO
+phonetisaurus.egg-info/SOURCES.txt
+phonetisaurus.egg-info/dependency_links.txt
+phonetisaurus.egg-info/not-zip-safe
+phonetisaurus.egg-info/requires.txt
+phonetisaurus.egg-info/top_level.txt
