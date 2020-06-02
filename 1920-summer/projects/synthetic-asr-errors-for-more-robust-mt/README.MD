@@ -12,7 +12,7 @@ This repository contains scripts suitable for simulating ASR errors.
 
 First, install following python packages
 ```shell script
-$ pip3 install jellyfish jiwer nltk numpy scipy tensorflow torch 
+$ pip3 install jellyfish jiwer nltk numpy scipy tensorflow torch pytorch-pretrained-bert
 ```
 
 Next, you need to compile and install `mitlm` `openfst` and my dirty modified version of the Phonetisaurus. 
@@ -51,21 +51,34 @@ so instead of running the scripts and aligning it by yourself, you can download 
 **hashed dictionaries**
 ```shell script
 # Download hashed dictionaries
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1BNKm31_-Wsy57-35Gxw3GK_vcLW1jNAh' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1BNKm31_-Wsy57-35Gxw3GK_vcLW1jNAh" -O hashed.zip && rm -rf /tmp/cookies.txt
 
 # Unzip and move to correct location
 unzip hashed.zip
-mv *.pkl ./train_dictionary/hashtable/
+
+mkdir ./train_dictionary/hashtable
+
+mv words-30K_METAPHONE_1_2.pkl \
+   words-30K_MRA_1_2.pkl words-30K_NYSIIS_1_2.pkl \
+   words-400K_METAPHONE_1_1.pkl words-400K_MRA_1_1.pkl \
+   words-400K_NYSIIS_1_1.pkl words-400K_SOUNDEX_1_1.pkl \
+   ./train_dictionary/hashtable/
 ```
 
 **aligned dictionaries**
 ```shell script
 # Download aligned dictionaries
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mNsNxsSrMkxu5f1mD7aaBn35YramJudH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1mNsNxsSrMkxu5f1mD7aaBn35YramJudH" -O dict.zip && rm -rf /tmp/cookies.txt
 
 # Unzip and move to correct location
-unzip hashed.zip
-mv *.pkl ./train_dictionary/dictionary/
+unzip dict.zip
+
+mkdir ./train_dictionary/dictionary
+
+mv  eng-words-140K_mra_0.8.pkl \
+    scraped-dict.pkl \
+    words-400K_mra_0.8.pkl \
+    ./train_dictionary/dictionary/
 ```
 
 
@@ -199,3 +212,4 @@ For `error_model=embedding` you need to specify:
 * write input generator for CzEng 2.0 (I think simple modification of `SentencesFromListOfFiles` generator should do the trick )
 * run some experiments as described above and select some parameters / models ...
 * process CzEng 2.0
+

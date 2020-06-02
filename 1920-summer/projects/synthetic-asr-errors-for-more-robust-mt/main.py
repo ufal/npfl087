@@ -384,7 +384,7 @@ if __name__ == "__main__":
                         help="M:N errors. maximum number of target_meta words (N) in single error.")
     parser.add_argument("--error_rate", "-er", type=float, default=0.3,
                         help="Probability of error. Because we have M:N errors and not only 1:1 errors, WER may be a bit higher then error rate.")
-    parser.add_argument("--error_model", "-em", type=str, default='dictionary',
+    parser.add_argument("--error_model", "-em", type=str, default='phoneme',
                         help="How error is generated; options:['phoneme', 'dictionary', 'embedding']. Currently only phoneme is implemented here...")
 
     # Additional error parameters:
@@ -398,7 +398,7 @@ if __name__ == "__main__":
                         help="How error is sampled from available error samples; options:['weighted', 'uniform']. 'weighted' := higher the error score (score depends on error model), higher the probability")
 
     # LM model parameters
-    parser.add_argument("--use_lm", "-ulm", type=bool, default=False, help="Use the language model or not ...") # todo
+    parser.add_argument("--use_lm", "-ulm", type=bool, default=True, help="Use the language model or not ...")
     parser.add_argument("--bert_lm", "-lm", type=str, default="bert-base-uncased",
                         help="Which pre-trained Bert to choose from available torch models")
 
@@ -434,3 +434,4 @@ if __name__ == "__main__":
     input_sentence_generator = get_generator(**args.__dict__)
     homo_noiser_script = HomoNoiserScript(input_sentence_generator, **args.__dict__)
     homo_noiser_script.run()
+

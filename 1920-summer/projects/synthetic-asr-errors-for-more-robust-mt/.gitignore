@@ -1,0 +1,10 @@
+train_dictionary/dictionary/
+train_dictionary/hashtable/
+train_phoneme/model/
+train_phoneme/cmudict.dict
+train_phoneme/cmudict.formatted.dict
+train_sound_embeddings/data/
+train_sound_embeddings/saved_models/
+train_sound_embeddings/outputs/
+.idea
+
